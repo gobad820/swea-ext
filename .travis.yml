@@ -13,7 +13,7 @@ cache:
     - '$HOME/.gradle'
 
 before_script:
-  - cd deployment-study    # [핵심] 프로젝트 폴더 안으로 들어갑니다.
+  - cd deploymnet-study    # [핵심] 프로젝트 폴더 안으로 들어갑니다.
   - chmod +x gradlew       # [필수] gradlew 파일에 실행 권한을 줍니다. (이게 없으면 'Permission denied' 에러 남)
 
 script:
