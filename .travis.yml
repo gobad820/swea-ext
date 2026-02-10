@@ -18,6 +18,7 @@ before_script:
   - cd deploymnet-study    # [주의] 본인 저장소의 실제 폴더명과 일치해야 합니다. (오타 확인: deployment vs deploymnet)
   - chmod +x gradlew
 
+
 script:
   - ./gradlew clean build
 
