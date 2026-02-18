@@ -35,3 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+### Configuration Files (중요!) ###
+# application.properties 자체를 제외하거나
+# application-real.properties 등 운영용 설정 파일만 제외
+application-secret.properties
+application-prod.properties
